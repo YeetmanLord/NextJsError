@@ -13,3 +13,5 @@ Module not found: Can't resolve 'ui-library'
   5 | export default function Home() {
   6 |   return (
 ```
+This is a "simplified" version of the setup that I am using for production development. I have a ui library on my machine that is included using a local file dependency. 
+I also have a modified version of the Neode package that I am including using a file dependency as well. Both libraries yield a `Module not found` error.
