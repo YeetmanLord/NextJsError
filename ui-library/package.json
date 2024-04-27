@@ -1,0 +1,32 @@
+{
+  "name": "ui-library",
+  "author": "YeetManLord",
+  "description": "A UI library for testing",
+  "version": "0.0.1",
+  "license": "All Rights Reserved",
+  "private": true,
+  "scripts": {
+    "build": "npx tsc && npx tsc-alias"
+  },
+  "dependencies": {
+    "classnames": "^2.5.1",
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "ui-library": "file:../dependency"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "tsc-alias": "^1.8.8",
+    "typescript": "^5"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "types": "dist/types/index.d.ts"
+}
